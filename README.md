@@ -34,7 +34,7 @@ Stack:
 - JavaScript
 - Bootstrap v5.1
 
-# Author
+# Responsável
 
 <a href="https://www.linkedin.com/in/diegotenorio" target="_blank">
  <img style="border-radius: 50%;" src="./assets/readme/diegotenorio.png" width="100px;" alt=""/>
