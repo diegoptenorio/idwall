@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Elimine a Fraude de Identidade e Ofereça uma Experiência de Cadastro Incrível aos Clientes">
+    <meta name="author" content="Diego Tenório">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon.png">
+    <title>Idwall - Soluções de Onboarding</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="navbar sticky-top flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-md-3 col-lg-2 me-0" href="#">
+        <img src="./assets/img/logo.svg" alt="Marca Idwall">
+      </a>
+      <button
+        class="navbar-toggler position-absolute d-md-none collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#sidebarMenu"
+        aria-controls="sidebarMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <div id="nav-icon3" class="">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+      <div class="navbar-nav">
+        <div class="nav-item text-nowrap">
+          <button type="button" class="btn btn btn-outline-dark">
+            <span data-feather="log-out"></span>
+            Sair
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+          <div class="position-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="home"></span>
+                  Protocolos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="file"></span>
+                  Documentos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./usuarios.html">
+                  <span data-feather="user"></span>
+                  Usuários
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="archive"></span>
+                  Fontes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="layers"></span>
+                  Matrizes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="list"></span>
+                  Regras
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="sliders"></span>
+                  Atributos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page">
+                  <span data-feather="bar-chart-2"></span>
+                  Monitor
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="users"></span>
+                  Organizações
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-4 pb-2 mb-3">
+            <h1 class="h2">Monitor</h1>
+          </div>
+          <div class="filter row gx-3 gy-2 mb-3">
+            <div class="col-md-4 text-center">
+            <h6>Status</h6>
+            <figure class="text-center mb-4 mt-3">
+              <img src="./assets/img/status.svg" alt="Gráfico de status">
+            </figure>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="off-tab" data-bs-toggle="tab" data-bs-target="#off" type="button" role="tab"
+                  aria-controls="off" aria-selected="true"><span data-feather="x-circle" class="error-color"></span>
+                  Offline</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="on-tab" data-bs-toggle="tab" data-bs-target="#on" type="button" role="tab"
+                  aria-controls="on" aria-selected="false"><span data-feather="check-circle"
+                    class="success-color"></span>Online</button>
+              </li>
+            </ul>
+            <div class="tab-content mb-2 overflow-auto text-start" id="myTabContent">
+              <div class="tab-pane fade show active" id="off" role="tabpanel" aria-labelledby="off-tab">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">AntecedentesPE</li>
+                  <li class="list-group-item">AntecedentesPI</li>
+                  <li class="list-group-item">AntecedentesPA</li>
+                  <li class="list-group-item">AntecedentesRJ</li>
+                  <li class="list-group-item">AntecedentesPR</li>
+                  <li class="list-group-item">AntecedentesBA</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="on" role="tabpanel" aria-labelledby="on-tab">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">InfracoesRS</li>
+                  <li class="list-group-item">InfracoesPI</li>
+                  <li class="list-group-item">InfracoesPB</li>
+                  <li class="list-group-item">InfracoesRJ</li>
+                  <li class="list-group-item">InfracoesRO</li>
+                  <li class="list-group-item">InfracoesES</li>
+                  <li class="list-group-item">InfracoesBA</li>
+                  <li class="list-group-item">InfracoesPR</li>
+                  <li class="list-group-item">InfracoesRS</li>
+                  <li class="list-group-item">InfracoesPI</li>
+                  <li class="list-group-item">InfracoesPB</li>
+                  <li class="list-group-item">InfracoesRJ</li>
+                  <li class="list-group-item">InfracoesRO</li>
+                  <li class="list-group-item">InfracoesES</li>
+                  <li class="list-group-item">InfracoesBA</li>
+                  <li class="list-group-item">InfracoesPR</li>
+                  <li class="list-group-item">InfracoesRS</li>
+                  <li class="list-group-item">InfracoesPI</li>
+                  <li class="list-group-item">InfracoesPB</li>
+                  <li class="list-group-item">InfracoesRJ</li>
+                  <li class="list-group-item">InfracoesRO</li>
+                  <li class="list-group-item">InfracoesES</li>
+                  <li class="list-group-item">InfracoesBA</li>
+                  <li class="list-group-item">InfracoesPR</li>
+                </ul>
+              </div>
+            </div>
+            </div><div class="col-md-4 text-center">
+              <h6>Protocolos</h6>
+              <figure class="text-center mb-4 mt-3">
+                <img src="./assets/img/status.svg" alt="Gráfico de protocolos">
+              </figure>
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="processando-tab" data-bs-toggle="tab" data-bs-target="#processando"
+                    type="button" role="tab" aria-controls="off" aria-selected="true"><span
+                      data-feather="arrow-right-circle"></span>
+                    Processando</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="preprocessando-tab" data-bs-toggle="tab" data-bs-target="#preprocessando"
+                    type="button" role="tab" aria-controls="on" aria-selected="false"><span data-feather="alert-circle"
+                      class="warning-color"></span>Pré-processando</button>
+                </li>
+              </ul>
+              <div class="tab-content mb-2 overflow-auto text-start" id="myTabContent">
+                <div class="tab-pane fade show active" id="processando" role="tabpanel" aria-labelledby="processando-tab">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">AntecedentesPE</li>
+                    <li class="list-group-item">AntecedentesPI</li>
+                    <li class="list-group-item">AntecedentesPA</li>
+                    <li class="list-group-item">AntecedentesRJ</li>
+                    <li class="list-group-item">AntecedentesPR</li>
+                    <li class="list-group-item">AntecedentesBA</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="preprocessando" role="tabpanel" aria-labelledby="preprocessando-tab">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">InfracoesRS</li>
+                    <li class="list-group-item">InfracoesPI</li>
+                    <li class="list-group-item">InfracoesPB</li>
+                    <li class="list-group-item">InfracoesRJ</li>
+                    <li class="list-group-item">InfracoesRO</li>
+                    <li class="list-group-item">InfracoesES</li>
+                    <li class="list-group-item">InfracoesBA</li>
+                    <li class="list-group-item">InfracoesPR</li>
+                    <li class="list-group-item">InfracoesRS</li>
+                    <li class="list-group-item">InfracoesPI</li>
+                    <li class="list-group-item">InfracoesPB</li>
+                    <li class="list-group-item">InfracoesRJ</li>
+                    <li class="list-group-item">InfracoesRO</li>
+                    <li class="list-group-item">InfracoesES</li>
+                    <li class="list-group-item">InfracoesBA</li>
+                    <li class="list-group-item">InfracoesPR</li>
+                    <li class="list-group-item">InfracoesRS</li>
+                    <li class="list-group-item">InfracoesPI</li>
+                    <li class="list-group-item">InfracoesPB</li>
+                    <li class="list-group-item">InfracoesRJ</li>
+                    <li class="list-group-item">InfracoesRO</li>
+                    <li class="list-group-item">InfracoesES</li>
+                    <li class="list-group-item">InfracoesBA</li>
+                    <li class="list-group-item">InfracoesPR</li>
+                  </ul>
+                </div>
+              </div>
+            </div><div class="col-md-4 text-center">
+              <h6>Consultas em Análise</h6>
+              <div class="tab-content tab-large mb-2 overflow-auto text-start" id="myTabContent">
+                <div class="tab-pane fade show active" id="preprocessando" role="tabpanel" aria-labelledby="preprocessando-tab">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">InfracoesRS</li>
+                    <li class="list-group-item">InfracoesPI</li>
+                    <li class="list-group-item">InfracoesPB</li>
+                    <li class="list-group-item">InfracoesRJ</li>
+                    <li class="list-group-item">InfracoesRO</li>
+                    <li class="list-group-item">InfracoesES</li>
+                    <li class="list-group-item">InfracoesBA</li>
+                    <li class="list-group-item">InfracoesPR</li>
+                    <li class="list-group-item">InfracoesRS</li>
+                    <li class="list-group-item">InfracoesPI</li>
+                    <li class="list-group-item">InfracoesPB</li>
+                    <li class="list-group-item">InfracoesRJ</li>
+                    <li class="list-group-item">InfracoesRO</li>
+                    <li class="list-group-item">InfracoesES</li>
+                    <li class="list-group-item">InfracoesBA</li>
+                    <li class="list-group-item">InfracoesPR</li>
+                    <li class="list-group-item">InfracoesRS</li>
+                    <li class="list-group-item">InfracoesPI</li>
+                    <li class="list-group-item">InfracoesPB</li>
+                    <li class="list-group-item">InfracoesRJ</li>
+                    <li class="list-group-item">InfracoesRO</li>
+                    <li class="list-group-item">InfracoesES</li>
+                    <li class="list-group-item">InfracoesBA</li>
+                    <li class="list-group-item">InfracoesPR</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script 
+      src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
+      integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"
+      integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/icons.js"></script>
+  </body>
+</html>
