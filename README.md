@@ -5,7 +5,7 @@
  <a href="#baixar">Baixar</a> • 
  <a href="#interfaces">Interfaces</a> • 
  <a href="#tech">Tech</a> •
- <a href="#author">Author</a> 
+ <a href="#responsavel">Responsável</a> 
 </p>
 
 # Sobre
