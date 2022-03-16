@@ -2,7 +2,8 @@
 
 <p align="center">
  <a href="#sobre">Sobre</a> •
- <a href="#baixar">Baixar</a> • 
+ <a href="#clone">Clone</a> • 
+ <a href="#acesso">Acesso</a> • 
  <a href="#interfaces">Interfaces</a> • 
  <a href="#tech">Tech</a> •
  <a href="#contribuidor">Contribuidor</a> 
@@ -12,13 +13,18 @@
 Esta é uma proposta de produto web para a Idwall idealizada durante o curso de Análise e Desenvolvimento de Sistemas da FIAP.
 
 
-# Baixar
+# Clone
 $ git clone <https://github.com/diegoptenorio/idwall.git>
 
 # Interfaces
 
 - [x] Usuários
 - [x] Monitor
+
+# Acesso
+
+- [Tela de usuários](https://diegoptenorio.github.io/idwall/usuarios.html)
+- [Tela monitor](https://diegoptenorio.github.io/idwall/monitor.html)
 
 # Tech
 
